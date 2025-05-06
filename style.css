@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+body {
+  background-color: #0a0a0a;
+  color: white;
+  font-family: "montserrat", sans-serif;
+}
+nav {
+  background-color: #1b1b1b;
+  text-align: center;
+  padding: 20px 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+nav li {
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+nav li.active {
+  color: #5bc408;
+}
+.foto {
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+border-radius: 50%;
+}
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 12px;
+}
+.home-content {
+    h1{
+        font-size: 48px;
+    }
+p{
+    font-size: 16px;
+    color: #5bc408;
+    text-align: justify;
+    }
+btn-curriculo{
+    background-color: #5bc408;
+    color: #5bc408;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+}
+
