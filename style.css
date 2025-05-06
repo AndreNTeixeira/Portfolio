@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: auto;
+  padding: 0;
   box-sizing: border-box;
 }
 a {
@@ -46,23 +46,75 @@ border-radius: 50%;
   height: 100vh;
   padding: 12px;
 }
-.home-content {
-    h1{
-        font-size: 48px;
-    }
-p{
+.home-content h1{
+    font-size: 48px;
+}
+.home-content p{
     font-size: 16px;
     color: #5bc408;
     text-align: justify;
-    }
-btn-curriculo{
+}
+.btn-curriculo{
     background-color: #5bc408;
-    color: #5bc408;
+    color: white;
     padding: 10px 20px;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
+    border: none;
     
 }
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .imagem {
+    margin-top: 20px;
+  }
 }
-
+.tecnologia {
+  padding: 40px 20px;
+  text-align: center;
+}
+.tecnologia h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #5bc408;
+}
+.lista-tec{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.tec-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+  border 2px solid #5bc408;
+  border-radius: 12px;
+  color:#5bc408;
+  padding: 16px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.tec-card img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.tec-card span{
+  font-size: 16px;
+  font-weight: bold;
+}
+.tec-card:hover{
+  background-color: #5bc408;
+  color: white;
+  cursor: pointer;
+}
+.tec-card:hover span{
+  color: white;
+}
